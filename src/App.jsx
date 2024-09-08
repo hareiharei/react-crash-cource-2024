@@ -1,11 +1,14 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div className='text-5xl'>
-      app
-    </div>
-  );
-};
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  )
+}
 
-export default App;
+export default App
